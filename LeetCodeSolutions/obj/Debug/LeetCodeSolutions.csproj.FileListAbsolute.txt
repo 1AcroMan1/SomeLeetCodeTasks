@@ -1,0 +1,11 @@
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\bin\Debug\LeetCodeSolutions.exe.config
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\bin\Debug\LeetCodeSolutions.exe
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\bin\Debug\LeetCodeSolutions.pdb
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\obj\Debug\LeetCodeSolutions.csproj.AssemblyReference.cache
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\obj\Debug\LeetCodeSolutions.csproj.SuggestedBindingRedirects.cache
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\obj\Debug\LeetCodeSolutions.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\obj\Debug\LeetCodeSolutions.exe
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\obj\Debug\LeetCodeSolutions.pdb
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\bin\Debug\xunit.assert.dll
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\bin\Debug\xunit.assert.xml
+C:\Users\1\source\repos\LeetCodeSolutions\LeetCodeSolutions\obj\Debug\LeetCodeSolutions.csproj.CopyComplete

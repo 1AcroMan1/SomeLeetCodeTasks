@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2810BD1D-5E92-49C0-B4EA-FE91CA8E5BCC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LeetCodeSolutions</RootNamespace>
+    <AssemblyName>LeetCodeSolutions</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="xunit.assert, Version=2.5.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.assert.2.5.0\lib\netstandard1.1\xunit.assert.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="E23ContainsDuplicate.cs" />
+    <Compile Include="E17BestTimeToBuyAndSellStock.cs" />
+    <Compile Include="E12ClimbStairs.cs" />
+    <Compile Include="E11Sqrt%28x%29.cs" />
+    <Compile Include="E2LongestCommonPrefix.cs" />
+    <Compile Include="E1PalindromeNumber.cs" />
+    <Compile Include="E4MergeTwoSortedLists.cs" />
+    <Compile Include="E7FindTheIndexOfTheFirstOccurrenceInAString.cs" />
+    <Compile Include="E9LengthOfLastWord.cs" />
+    <Compile Include="E10PlusOne.cs" />
+    <Compile Include="E14MergeSortedArray.cs" />
+    <Compile Include="E15&amp;&amp;E16PascalsTriangle.cs" />
+    <Compile Include="E20ExcelSheetColumnTitle.cs" />
+    <Compile Include="E21MajorityElement.cs" />
+    <Compile Include="E25MissingNumber.cs" />
+    <Compile Include="E26MoveZeroes.cs" />
+    <Compile Include="E28IntersectOfTwoArrays.cs" />
+    <Compile Include="E30FindAllNumbersDissapearedInAnArray.cs" />
+    <Compile Include="E31MaxConsecutiveOnes.cs" />
+    <Compile Include="M1GroupAnagrams.cs" />
+    <Compile Include="M3NextGreaterElementI.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="E3ValidParentheses.cs" />
+    <Compile Include="E5RemoveDuplicatesFromSortedArray.cs" />
+    <Compile Include="E6RemoveElement.cs" />
+    <Compile Include="E8SearchInsertPosition.cs" />
+    <Compile Include="E13RemoveDublicatesFromSortedList.cs" />
+    <Compile Include="E18ValidPalindrome.cs" />
+    <Compile Include="E19SingleNumber.cs" />
+    <Compile Include="E22ReversBits.cs" />
+    <Compile Include="E24SummaryRanges.cs" />
+    <Compile Include="E27RangeSumQuery.cs" />
+    <Compile Include="E29ThirdMaximumNumber.cs" />
+    <Compile Include="E32TeemoAtacking.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="E33ValidAnagram.cs" />
+    <Compile Include="M2TopKFrequientElements.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Sqrtx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
